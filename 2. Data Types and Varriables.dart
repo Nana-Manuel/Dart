@@ -39,6 +39,11 @@ void main() {
   int b = 10;
   print("Sum of $l and $b is ${l + b}");
   print("The area of rectangle with lenht $l anf breath $b is ${b * l}");
+
+  // The final and contant key word
+  final Fname = "John";
+  const PI = 3.14;
+
 }
 
 
