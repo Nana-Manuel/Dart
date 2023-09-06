@@ -38,5 +38,14 @@ void main(){
   }
 
   print(grade);
+  //Condition expression
+  //Ternarry Statement
+  int a = 2;
+  int b = 3;
+  a > b? print("$a is bigger") : print("$b is bigger");
+
+  String name = "Kofi";
+  String UserName = name ?? "Unknown User";
+  print(UserName);
     
 }

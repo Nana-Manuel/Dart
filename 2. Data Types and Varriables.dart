@@ -43,6 +43,8 @@ void main() {
   // The final and contant key word
   final Fname = "John";
   const PI = 3.14;
+  print(Fname);
+  print(PI);
 
 }
 
