@@ -13,7 +13,7 @@ void main(){
   }
 
   //if, else, else if statements
-  int score = 90;
+  int score = 12;
   var grade;
   if (score >= 80 && score <=100){
     grade = 'A';
@@ -36,8 +36,36 @@ void main(){
   else {
     print("Invalid Input");
   }
-
   print(grade);
+
+  //Switch Case
+  switch(grade){
+    case 'A':
+      print("Excellent");
+      break;
+    
+    case 'B':
+      print("Very Good");
+      break;
+    
+    case 'C':
+      print("Good");
+      break;
+    
+    case 'D':
+      print("okay");
+      break;
+    
+    case 'E':
+      print("Pass");
+      break;
+
+    case 'F':
+      print("Fail");
+      break;
+  }
+
+  
   //Condition expression
   //Ternarry Statement
   int a = 2;
