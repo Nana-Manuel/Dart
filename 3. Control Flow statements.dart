@@ -63,6 +63,9 @@ void main(){
     case 'F':
       print("Fail");
       break;
+
+    default:
+      print("Not allowed");
   }
 
   
