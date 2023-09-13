@@ -3,8 +3,6 @@
 //   return value;
 // }
 
-import 'dart:ffi';
-
 void main() {
   perimeter(12, 2);
   print(Area(12, 2));
