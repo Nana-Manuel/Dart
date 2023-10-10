@@ -5,8 +5,9 @@
 // 4. FINALLY CLAUSE
 
 void main() {
- //this is used when you are sure about the error
-print("CASE 1"); 
+ 
+print("CASE 1");
+//CASE 1 is used when you are sure about the error 
   try {
     int result = 12 ~/ 0;
     print(result);
@@ -16,10 +17,11 @@ print("CASE 1");
 
 
 print("\nCASE 2");
+// CASE 2 is used when the error is not known before hand
   try {
     int result = 12 ~/ 0;
     print(result);
-  } catch {  
-    print("IntegerDivisionByZeroException");
+  } catch(e) {  
+    print("$e");
   }
 }
