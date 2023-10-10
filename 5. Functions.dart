@@ -3,15 +3,12 @@
 //   return value;
 // }
 
-import 'dart:svg';
-
-import '2. Data Types and Varriables.dart';
 
 void main() {
   perimeter(12, 2);
   print(Area(12, 2));
   Area1(12, 2);
-  findVolume(10, height: 20, breadth: 2); //named parameters
+  findVolume1(10, height: 30, breadth: 2); //named parameters
 }
 
 //void return type
@@ -31,11 +28,19 @@ void Area1(int length, int breadth) => print("Area is ${length * breadth}");
 
 //Named Parameter
 // Dont know why the sintax ia not working but it seems to be right from tutorials
-void findVolume(int length, {int breadth, int height})
- {
+// void findVolume(int length, {int breadth, int height}) {
+//   print("Length: $length");
+//   print("Breadth: $breadth");
+//   print("Height: $height");
+
+//   print(length * breadth * height);
+// }
+
+// Default Parameter
+void findVolume1(int length, {int breadth = 2, int height = 10}) {
   print("Length: $length");
   print("Breadth: $breadth");
   print("Height: $height");
 
-  print(length * breadth * height);
+  print("Volume is ${length * breadth * height}");
 }
