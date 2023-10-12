@@ -3,11 +3,11 @@
 int age = 10;
 var year = 2023;
 
-// foat
+// floating point numbers
 double height = 20.4;
 var m_height = 34.56;
 
-// String 
+// String
 var name = "Henry";
 String student_Name = "Peter";
 
@@ -20,7 +20,6 @@ var isDead = false;
 // Runes
 // Symbols
 
-
 // The initial values of all varriables is null
 // All data type in dart are Objects
 void main() {
@@ -28,10 +27,11 @@ void main() {
 
   //string interpolation
   String name = "Manuel";
-  String message = "My name is $name"; // we can also use + but its not advisable to do that in dart
+  String message =
+      "My name is $name"; // we can also use + but its not advisable to do that in dart
   print(message);
 
-  print("Number of characters in Name: "+ name.length.toString());
+  print("Number of characters in Name: " + name.length.toString());
   // OR
   print("Number of characters in Name: ${name.length}"); // Best practice
 
@@ -40,14 +40,9 @@ void main() {
   print("Sum of $l and $b is ${l + b}");
   print("The area of rectangle with lenht $l anf breath $b is ${b * l}");
 
-  // The final and contant key word
+  // The final and constant key word
   final Fname = "John";
   const PI = 3.14;
   print(Fname);
   print(PI);
-
 }
-
-
-
-
