@@ -1,7 +1,7 @@
 void main() {
   var firstStudent = Student();
   firstStudent.id = 3021220;
-  firstStudent.name = Emmanuel;
+  firstStudent.name = "Emmanuel";
   firstStudent.sleep();
   firstStudent.study();
 }
