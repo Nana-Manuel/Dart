@@ -8,7 +8,13 @@ void main() {
 
 class Student {
   int id = 0000000;
-  String name;
+  String name = "No Name";
+
+  //constructor
+  // Student() {
+  //   id = 0000000;
+  //   name = "No Name";
+  // }
 
   void sleep() {
     print("${this.name} is sleeping");
